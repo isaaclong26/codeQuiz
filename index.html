@@ -1,0 +1,49 @@
+
+<html>
+    <head>
+        <title>Code Quiz</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />    
+        <link rel="stylesheet" href="./assets/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./assets/script.js"></script>
+            <script src="./assets/jquery.js"></script>
+    </head>
+        
+    <body>
+        <header>
+            <div id="high">High Scores</div>
+            <div id="time">Time:   <div id=timer></div></div>
+        </header>
+
+
+        <main>
+            <section id="quiz">
+                <h1 id="codeQuizTitle">Code Quiz</h1>
+
+                <article id="question">Question</article>
+                <article id="answer1"class="answer">Answer 1</article>
+                <article id="answer2"class="answer">Answer 2</article>
+                <article id="answer3"class="answer">Answer 3</article>
+                <article id="answer4" class="answer">Answer 4</article>
+                <article id="menu">
+                    <h1>Welcome to the code quiz!</h1>
+                    <button onClick="startQuiz();"type="button"id="start">Start</button>
+                </article>
+                <article id="gameOver" >
+                    <h1>Score</h1><h1 id="score"></h1>
+                    enter name<input type="text" name="name" id="name"></br><button onclick="takeNameAndScore(document.getElementById('name').value)"">submit</button>
+                    <button onclick="playAgain()">Play Again</button><button onclick="highScore()">High Scores</button>
+                </article>
+
+            </section>
+            
+
+            
+        </main>
+
+
+    </body>
+    
+    
+    
+</html>

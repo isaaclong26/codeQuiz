@@ -1,0 +1,62 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+
+header{
+    width: 100%;
+    padding: 20px;
+}
+
+#high{
+    float: left;
+}
+
+
+#timer, #time{
+    float: right;
+}
+
+
+#quiz{
+    margin: auto;
+    width: 40%;
+    height: 40%;
+    background-color: bisque;
+    
+
+}
+
+#quiz h1{
+    text-align: center;
+}
+
+#question{
+    text-align: center;
+    padding: 20px;
+}
+.answer{
+    padding: 0 20px 10px 20px;
+    background-color: gainsboro;
+    margin: 12px 30px;
+    border-radius: 2px;
+}
+
+#menu button{
+    text-align: center;
+    display: inline-block;
+    padding:30px;
+    margin-left: 160px;;
+}
+
+.answer:hover{
+    background-color: blue;
+    color:white;
+    transform: scale(105%);
+}
+
+#gameOver{
+    text-align: center;
+}
